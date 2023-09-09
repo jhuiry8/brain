@@ -24,7 +24,7 @@
 <p align="center">
   <a href="#about">About</a> •
   <a href="#features-">Features</a> •
-  <a href="#getting-started">Getting Started</a> •
+  <a href="#getting-started-">Getting Started</a> •
   <a href="#examples">Examples</a> •
   <a href="#documentation">Documentation</a> •
   <a href="#license">License</a>
