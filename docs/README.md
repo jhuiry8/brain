@@ -62,13 +62,13 @@ To update mineflayer (or any Node.js) package and its dependencies, use `npm upd
 
 
 
-## Examples
+## Examples 🛠️
 
 > [!IMPORTANT]
 > Without a version specified, the version of the server will be guessed automatically.
 > Without auth specified, the mojang auth style will be guessed.
 
-### Echo Example
+### Echo Example 🛠️
 ```js
 const mineflayer = require('mineflayer')
 
@@ -96,7 +96,7 @@ the bot will automatically obtain and cache authentication tokens in the local f
 To switch the account, update the supplied `username`. By default, cached tokens will be stored in your user's .minecraft folder.
 For more information on these options and others, see node-minecraft-protocol's [API doc](https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/docs/API.md#mccreateclientoptions).
 
-#### Connecting to a Realm
+#### Connecting to a Realm 🌎
 
 > [!IMPORTANT]
 > To join a Realm that your Minecraft account has been invited to, you can pass a `realms` object with a selector function like below.
@@ -112,7 +112,7 @@ const client = mineflayer.createBot({
 })
 ```
 
-### See what your bot is doing
+### See what your bot is doing 👀
 
 Thanks to the [prismarine-viewer](https://github.com/PrismarineJS/prismarine-viewer) project, it's possible to display in a browser window what your bot is doing.
 Just run `npm install prismarine-viewer` and add this to your bot:
@@ -122,28 +122,28 @@ bot.once('spawn', () => {
   mineflayerViewer(bot, { port: 3007, firstPerson: true }) // port is the minecraft server port, if first person is false, you get a bird's-eye view
 })
 ```
-And you'll get a *live* view looking like this:
+And you'll get a *live* 👀 view looking like this:
 
 [<img src="https://prismarinejs.github.io/prismarine-viewer/test_1.16.1.png" alt="viewer" width="500">](https://prismarinejs.github.io/prismarine-viewer/)
 
 
-#### More Examples
+#### More Examples 🚀
 
 | example | description |
 |---|---|
-|[viewer](https://github.com/PrismarineJS/mineflayer/tree/master/examples/viewer) | Display your bot world view in the browser |
-|[pathfinder](https://github.com/PrismarineJS/mineflayer/tree/master/examples/pathfinder) | Make your bot go to any location automatically |
-|[chest](https://github.com/PrismarineJS/mineflayer/blob/master/examples/chest.js) | Use chests, furnaces, dispensers, enchantment tables |
-|[digger](https://github.com/PrismarineJS/mineflayer/blob/master/examples/digger.js) | Learn how to create a simple bot that is capable of digging blocks |
-|[discord](https://github.com/PrismarineJS/mineflayer/blob/master/examples/discord.js) | Connect a discord bot with a mineflayer bot |
-|[jumper](https://github.com/PrismarineJS/mineflayer/blob/master/examples/jumper.js) | Learn how to move, jump, ride vehicles, attack nearby entities |
-|[ansi](https://github.com/PrismarineJS/mineflayer/blob/master/examples/ansi.js) | Display your bot's chat with all of the chat colors shown in your terminal |
-|[guard](https://github.com/PrismarineJS/mineflayer/blob/master/examples/guard.js) | Make a bot guard a defined area from nearby mobs |
-|[multiple-from-file](https://github.com/PrismarineJS/mineflayer/blob/master/examples/multiple_from_file.js) | Add a text file with accounts and have them all login |
+|[viewer](https://github.com/PrismarineJS/mineflayer/tree/master/examples/viewer) | Display your bot world view in the browser 👀 |
+|[pathfinder](https://github.com/PrismarineJS/mineflayer/tree/master/examples/pathfinder) | Make your bot go to any location automatically 🚶 |
+|[chest](https://github.com/PrismarineJS/mineflayer/blob/master/examples/chest.js) | Use chests, furnaces, dispensers, enchantment tables 🛠️ |
+|[digger](https://github.com/PrismarineJS/mineflayer/blob/master/examples/digger.js) | Learn how to create a simple bot that is capable of digging blocks 🛠️ |
+|[discord](https://github.com/PrismarineJS/mineflayer/blob/master/examples/discord.js) | Connect a discord bot with a mineflayer bot 💬 |
+|[jumper](https://github.com/PrismarineJS/mineflayer/blob/master/examples/jumper.js) | Learn how to move, jump, ride vehicles, attack nearby entities 🎮 |
+|[ansi](https://github.com/PrismarineJS/mineflayer/blob/master/examples/ansi.js) | Display your bot's chat with all of the chat colors shown in your terminal 💬 |
+|[guard](https://github.com/PrismarineJS/mineflayer/blob/master/examples/guard.js) | Make a bot guard a defined area from nearby mobs ⚔️ |
+|[multiple-from-file](https://github.com/PrismarineJS/mineflayer/blob/master/examples/multiple_from_file.js) | Add a text file with accounts and have them all login 💬 |
 
 And many more in the [examples](https://github.com/PrismarineJS/mineflayer/tree/master/examples) folder.
 
-## Documentation
+## Documentation 📜
 
 | link | description |
 |---|---|
@@ -154,7 +154,7 @@ And many more in the [examples](https://github.com/PrismarineJS/mineflayer/tree/
 | [examples/](https://github.com/PrismarineJS/mineflayer/tree/master/examples) | Checkout all the mineflayer examples |
 
 
-### Modules
+### Modules 📁
 
 A lot of the active development is happening inside of small npm packages which are used by mineflayer.
 
@@ -162,7 +162,7 @@ A lot of the active development is happening inside of small npm packages which 
 
 > "When applications are done well, they are just the really application-specific, brackish residue that can't be so easily abstracted away. All the nice, reusable components sublimate away onto github and npm where everybody can collaborate to advance the commons." — substack from ["how I write modules"](https://gist.github.com/substack/5075355)
 
-#### Modules
+#### Modules 📂
 
 These are the main modules that make up mineflayer:
 
@@ -185,23 +185,9 @@ These are the main modules that make up mineflayer:
 | [prismarine-entity](https://github.com/PrismarineJS/prismarine-entity) | Represent a minecraft entity
 
 
-### Debug
+## Third Party Plugins 🔌
 
-You can enable some protocol debugging output using `DEBUG` environment variable:
-
-```bash
-DEBUG="minecraft-protocol" node [...]
-```
-
-On windows :
-```
-set DEBUG=minecraft-protocol
-node your_script.js
-```
-
-## Third Party Plugins
-
-Mineflayer is pluggable; anyone can create a plugin that adds an even
+Mineflayer is pluggable 🔌 ; anyone can create a plugin that adds an even
 higher level API on top of Mineflayer.
 
 The most updated and useful are :
@@ -232,7 +218,7 @@ The most updated and useful are :
  * [panorama](https://github.com/IceTank/mineflayer-panorama) - take Panorama Images of your world
  * [player-death-event](https://github.com/tuanzisama/mineflayer-death-event) - emit player death event in Mineflayer.
 
-## Projects Using Mineflayer
+## Projects Using Mineflayer 📦
 
  * [Voyager](https://github.com/MineDojo/Voyager) An Open-Ended Embodied Agent with Large Language Models
  * [rom1504/rbot](https://github.com/rom1504/rbot)
@@ -250,8 +236,21 @@ The most updated and useful are :
  * [SilkePilon/OpenDeliveryBot](https://github.com/SilkePilon/OpenDeliveryBot) - Minecraft bot in python to deliver items from place to place.
  * [and hundreds more](https://github.com/PrismarineJS/mineflayer/network/dependents) - All the projects that github detected are using mineflayer
 
+### Debug 🔧
 
-## Testing
+You can enable some protocol debugging output using `DEBUG` environment variable:
+
+```bash
+DEBUG="minecraft-protocol" node [...]
+```
+
+On windows :
+```
+set DEBUG=minecraft-protocol
+node your_script.js
+```
+
+## Testing 🔦
 
 ### Testing everything
 
