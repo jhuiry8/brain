@@ -16,15 +16,10 @@
   <a href="soon!"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Hungarian"></a>
   
   <a href="https://www.npmjs.com/package/mineflayer"><img src="https://img.shields.io/npm/v/mineflayer.svg?color=success&label=npm%20package&logo=npm" alt="NPM version"></a>
-  <a href="soon!"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Hungarian"></a>
-  <a href="soon!"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Hungarian"></a>
-  <a href="soon!"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Hungarian"></a>
-  <a href="soon!"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Hungarian"></a>
-  [![NPM version](https://img.shields.io/npm/v/mineflayer.svg?color=success&label=npm%20package&logo=npm)](https://www.npmjs.com/package/mineflayer)
-  [![Build Status](https://img.shields.io/github/actions/workflow/status/PrismarineJS/mineflayer/ci.yml.svg?label=CI&logo=github&logoColor=lightgrey)](https://github.com/PrismarineJS/mineflayer/actions?query=workflow%3A%22CI%22)
-  [![Try it on gitpod](https://img.shields.io/static/v1.svg?label=try&message=on%20gitpod&color=brightgreen&logo=gitpod)](https://gitpod.io/#https://github.com/PrismarineJS/mineflayer)
-  [![Open In Colab](https://img.shields.io/static/v1.svg?label=open&message=on%20colab&color=blue&logo=google-colab)](https://colab.research.google.com/github/PrismarineJS/mineflayer/blob/master/docs/mineflayer.ipynb)
-  [![GitHub Sponsors](https://img.shields.io/github/sponsors/PrismarineJS)](https://github.com/sponsors/PrismarineJS)
+  <a href="https://github.com/PrismarineJS/mineflayer/actions?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/actions/workflow/status/PrismarineJS/mineflayer/ci.yml.svg?label=CI&logo=github&logoColor=lightgrey" alt="Build Status"></a>
+  <a href="https://gitpod.io/#https://github.com/PrismarineJS/mineflayer"><img src="https://img.shields.io/static/v1.svg?label=try&message=on%20gitpod&color=brightgreen&logo=gitpod" alt="Try it on gitpod"></a>
+  <a href="https://colab.research.google.com/github/PrismarineJS/mineflayer/blob/master/docs/mineflayer.ipynb"><img src="https://img.shields.io/static/v1.svg?label=open&message=on%20colab&color=blue&logo=google-colab" alt="Open In Colab"></a>
+  <a href="https://github.com/sponsors/PrismarineJS"><img src="https://img.shields.io/github/sponsors/PrismarineJS" alt="GitHub Sponsors"></a>
 </p>
 
 <p align="center">
