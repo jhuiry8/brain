@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/PrismarineJS/mineflayer"><img src="https://github.com/SilkePilon/mineflayer/blob/master/PrismarineJS.png?raw=true" alt="PrismarineJS" width="200"></a>
+  <a href="https://github.com/PrismarineJS/mineflayer"><img src="https://github.com/SilkePilon/mineflayer/blob/master/PrismarineJS.png?raw=true" alt="PrismarineJS" width="170"></a>
   <br>
   <br>
   Mineflayer
