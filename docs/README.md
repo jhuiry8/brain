@@ -10,7 +10,7 @@
 <p align="center">
   <img alt="Node version" src="https://img.shields.io/static/v1?label=node&message=%20%3E=14.0.0&logo=node.js&color=2334D058" ></img>
   <a href="https://python.org/"><img src="https://img.shields.io/badge/Python-FFD43B?logo=python&logoColor=blue" alt="Python"></a>
-  <a href="soon!"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Hungarian"></a>
+  <a href="https://discord.gg/GsEFRM8"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://www.npmjs.com/package/mineflayer"><img src="https://img.shields.io/npm/v/mineflayer.svg?color=success&label=npm%20package&logo=npm" alt="NPM version"></a>
   <a href="https://github.com/PrismarineJS/mineflayer/actions?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/actions/workflow/status/PrismarineJS/mineflayer/ci.yml.svg?label=CI&logo=github&logoColor=lightgrey" alt="Build Status"></a>
   <a href="https://gitpod.io/#https://github.com/PrismarineJS/mineflayer"><img src="https://img.shields.io/static/v1.svg?label=try&message=on%20gitpod&color=brightgreen&logo=gitpod" alt="Try it on gitpod"></a>
