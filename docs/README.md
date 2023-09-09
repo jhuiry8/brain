@@ -1,21 +1,38 @@
-# Mineflayer
+<h1 align="center">
+  <br>
+  <a href="https://github.com/SilkePilon/OpenDeliveryBot/"><img src="https://github.com/SilkePilon/OpenDeliveryBot/blob/main/logo.png?raw=true" alt="YouAgent" width="500"></a>
+  <br>
+  <br>
+  Mineflayer
+  <br>
+</h1>
 
-[![NPM version](https://img.shields.io/npm/v/mineflayer.svg?color=success&label=npm%20package&logo=npm)](https://www.npmjs.com/package/mineflayer)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/PrismarineJS/mineflayer/ci.yml.svg?label=CI&logo=github&logoColor=lightgrey)](https://github.com/PrismarineJS/mineflayer/actions?query=workflow%3A%22CI%22)
-[![Try it on gitpod](https://img.shields.io/static/v1.svg?label=try&message=on%20gitpod&color=brightgreen&logo=gitpod)](https://gitpod.io/#https://github.com/PrismarineJS/mineflayer)
-[![Open In Colab](https://img.shields.io/static/v1.svg?label=open&message=on%20colab&color=blue&logo=google-colab)](https://colab.research.google.com/github/PrismarineJS/mineflayer/blob/master/docs/mineflayer.ipynb)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/PrismarineJS)](https://github.com/sponsors/PrismarineJS)
+<h4 align="center">🤖 Create Minecraft bots with a powerful, stable, and high level JavaScript [API](api.md), also usable from Python.</h4>
 
-[![Official Discord](https://img.shields.io/static/v1.svg?label=OFFICIAL&message=DISCORD&color=blue&logo=discord&style=for-the-badge)](https://discord.gg/GsEFRM8)
+<p align="center">
+    <img alt="Node version" src="https://img.shields.io/static/v1?label=node&message=%20%3E=18.0.0&logo=node.js&color=2334D058" />
+      <a href="https://python.org/"><img src="https://img.shields.io/badge/Python-FFD43B?logo=python&logoColor=blue" alt="Python"></a>
+  <a href="https://github.com/reworkd/AgentGPT/blob/master/docs/README.zh-HANS.md"><img src="https://img.shields.io/badge/JavaScript-323330?logo=minecraft&logoColor=F7DF1E" alt="javascript"></a>
+  <a href="soon!"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Hungarian"></a>
+</p>
 
-| <sub>EN</sub> [English](README.md) | <sub>RU</sub> [русский](ru/README_RU.md) | <sub>ES</sub> [Español](es/README_ES.md) | <sub>FR</sub> [Français](fr/README_FR.md) | <sub>TR</sub> [Türkçe](tr/README_TR.md) | <sub>ZH</sub> [中文](zh/README_ZH_CN.md) |
-|-------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#how-to-install">Install</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
+</p>
 
-Create Minecraft bots with a powerful, stable, and high level JavaScript [API](api.md), also usable from Python.
+<!-- ![screenshot](https://raw.githubusercontent.com/SilkePilon/youdotcom/main/assets/images/YouDotCom.jpg) -->
+
+## About 📬
 
 First time using Node.js? You may want to start with the [tutorial](tutorial.md). Know Python? Checkout some [Python examples](https://github.com/PrismarineJS/mineflayer/tree/master/examples/python) and try out [Mineflayer on Google Colab](https://colab.research.google.com/github/PrismarineJS/mineflayer/blob/master/docs/mineflayer.ipynb).
 
-## Features
+
+## Features 🚀
 
  * Supports Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 and 1.20.
  * Entity knowledge and tracking.
@@ -29,11 +46,9 @@ First time using Node.js? You may want to start with the [tutorial](tutorial.md)
  * Activating blocks and using items.
  * Chat.
 
-### Roadmap
 
- Checkout [this page](https://github.com/PrismarineJS/mineflayer/wiki/Big-Prismarine-projects) to see what our current projects are.
+## Getting Started 🏁
 
-## Installation
 
 First install Node.js >= 14 from [nodejs.org](https://nodejs.org/) then:
 
@@ -41,38 +56,13 @@ First install Node.js >= 14 from [nodejs.org](https://nodejs.org/) then:
 
 To update mineflayer (or any Node.js) package and its dependencies, use `npm update --depth 9999`
 
-## Documentation
-
-| link | description |
-|---|---|
-|[tutorial](tutorial.md) | Begin with Node.js and mineflayer |
-| [FAQ.md](FAQ.md) | Got a question ? go there first |
-| **[api.md](api.md)** <br/>[unstable_api.md](unstable_api.md) | The full API reference |
-| [history.md](history.md) | The changelog for mineflayer |
-| [examples/](https://github.com/PrismarineJS/mineflayer/tree/master/examples) | Checkout all the mineflayer examples |
 
 
-## Contribute
+## Examples
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [prismarine-contribute](https://github.com/PrismarineJS/prismarine-contribute)
-
-## Usage
-
-**Videos**
-
-A tutorial video explaining the basic set up process for a bot can be found [here.](https://www.youtube.com/watch?v=ltWosy4Z0Kw)
-
-If you want to learn more, more video tutorials are [there,](https://www.youtube.com/playlist?list=PLh_alXmxHmzGy3FKbo95AkPp5D8849PEV) and the corresponding source codes for those bots is [there.](https://github.com/TheDudeFromCI/Mineflayer-Youtube-Tutorials)
-
-[<img src="https://img.youtube.com/vi/ltWosy4Z0Kw/0.jpg" alt="tutorial 1" width="200">](https://www.youtube.com/watch?v=ltWosy4Z0Kw)
-[<img src="https://img.youtube.com/vi/UWGSf08wQSc/0.jpg" alt="tutorial 2" width="200">](https://www.youtube.com/watch?v=UWGSf08wQSc)
-[<img src="https://img.youtube.com/vi/ssWE0kXDGJE/0.jpg" alt="tutorial 3" width="200">](https://www.youtube.com/watch?v=ssWE0kXDGJE)
-[<img src="https://img.youtube.com/vi/walbRk20KYU/0.jpg" alt="tutorial 4" width="200">](https://www.youtube.com/watch?v=walbRk20KYU)
-
-**Getting Started**
-
-Without a version specified, the version of the server will be guessed automatically.
-Without auth specified, the mojang auth style will be guessed.
+> [!IMPORTANT]
+> Without a version specified, the version of the server will be guessed automatically.
+> Without auth specified, the mojang auth style will be guessed.
 
 ### Echo Example
 ```js
@@ -104,7 +94,8 @@ For more information on these options and others, see node-minecraft-protocol's 
 
 #### Connecting to a Realm
 
-To join a Realm that your Minecraft account has been invited to, you can pass a `realms` object with a selector function like below.
+> [!IMPORTANT]
+> To join a Realm that your Minecraft account has been invited to, you can pass a `realms` object with a selector function like below.
 
 ```js
 const client = mineflayer.createBot({
@@ -131,6 +122,7 @@ And you'll get a *live* view looking like this:
 
 [<img src="https://prismarinejs.github.io/prismarine-viewer/test_1.16.1.png" alt="viewer" width="500">](https://prismarinejs.github.io/prismarine-viewer/)
 
+
 #### More Examples
 
 | example | description |
@@ -146,6 +138,17 @@ And you'll get a *live* view looking like this:
 |[multiple-from-file](https://github.com/PrismarineJS/mineflayer/blob/master/examples/multiple_from_file.js) | Add a text file with accounts and have them all login |
 
 And many more in the [examples](https://github.com/PrismarineJS/mineflayer/tree/master/examples) folder.
+
+## Documentation
+
+| link | description |
+|---|---|
+|[tutorial](tutorial.md) | Begin with Node.js and mineflayer |
+| [FAQ.md](FAQ.md) | Got a question ? go there first |
+| **[api.md](api.md)** <br/>[unstable_api.md](unstable_api.md) | The full API reference |
+| [history.md](history.md) | The changelog for mineflayer |
+| [examples/](https://github.com/PrismarineJS/mineflayer/tree/master/examples) | Checkout all the mineflayer examples |
+
 
 ### Modules
 
