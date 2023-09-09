@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-<h4 align="center">🤖 Create Minecraft bots with a powerful, stable, and high level JavaScript [API](api.md), also usable from Python.</h4>
+<h4 align="center">🤖 Create Minecraft bots with a powerful, stable, and high level JavaScript <a href="api.md" target="_blank">API</a>, also usable from <a href="https://github.com/PrismarineJS/mineflayer/tree/master/examples/python" target="_blank">Python 🐍</a>.</h4>
 
 <p align="center">
   <img alt="Node version" src="https://img.shields.io/static/v1?label=node&message=%20%3E=14.0.0&logo=node.js&color=2334D058" ></img>
@@ -34,7 +34,8 @@
 | <sub>EN</sub> [English](README.md) | <sub>RU</sub> [русский](ru/README_RU.md) | <sub>ES</sub> [Español](es/README_ES.md) | <sub>FR</sub> [Français](fr/README_FR.md) | <sub>TR</sub> [Türkçe](tr/README_TR.md) | <sub>ZH</sub> [中文](zh/README_ZH_CN.md) |
 |-------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
-First time using Node.js? You may want to start with the [tutorial](tutorial.md) 💡. Know Python? Checkout some [Python examples](https://github.com/PrismarineJS/mineflayer/tree/master/examples/python) 🐍 and try out [Mineflayer on Google Colab](https://colab.research.google.com/github/PrismarineJS/mineflayer/blob/master/docs/mineflayer.ipynb) 🤖.
+First time using Node.js? You may want to start with the [tutorial](tutorial.md) 💡. 
+Know Python? Checkout some [Python examples](https://github.com/PrismarineJS/mineflayer/tree/master/examples/python) 🐍 and try out [Mineflayer on Google Colab](https://colab.research.google.com/github/PrismarineJS/mineflayer/blob/master/docs/mineflayer.ipynb) 🤖.
 
 ## Features 🚀
 
