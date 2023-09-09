@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="#about">About</a> •
-  <a href="#key-features">Key Features</a> •
+  <a href="#Features">Key Features</a> •
   <a href="#getting-started">Getting Started</a> •
   <a href="#examples">Examples</a> •
   <a href="#documentation">Documentation</a> •
