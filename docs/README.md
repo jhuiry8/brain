@@ -34,22 +34,21 @@
 
 ## About 📬
 
-First time using Node.js? You may want to start with the [tutorial](tutorial.md). Know Python? Checkout some [Python examples](https://github.com/PrismarineJS/mineflayer/tree/master/examples/python) and try out [Mineflayer on Google Colab](https://colab.research.google.com/github/PrismarineJS/mineflayer/blob/master/docs/mineflayer.ipynb).
-
+First time using Node.js? You may want to start with the [tutorial](tutorial.md) 💡. Know Python? Checkout some [Python examples](https://github.com/PrismarineJS/mineflayer/tree/master/examples/python) 🐍 and try out [Mineflayer on Google Colab](https://colab.research.google.com/github/PrismarineJS/mineflayer/blob/master/docs/mineflayer.ipynb) 🤖.
 
 ## Features 🚀
 
- * Supports Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 and 1.20.
- * Entity knowledge and tracking.
- * Block knowledge. You can query the world around you. Milliseconds to find any block.
- * Physics and movement - handle all bounding boxes
- * Attacking entities and using vehicles.
- * Inventory management.
- * Crafting, chests, dispensers, enchantment tables.
- * Digging and building.
- * Miscellaneous stuff such as knowing your health and whether it is raining.
- * Activating blocks and using items.
- * Chat.
+- Supports Minecraft 1.8 to 1.19 🎮
+- Entity knowledge and tracking 👀
+- Block knowledge 🌎
+- Physics and movement 🚶
+- Attacking entities and using vehicles ⚔️
+- Inventory management 🎒
+- Crafting, chests, dispensers 🏰
+- Digging and building 🛠️
+- Miscellaneous stuff like health and weather 🌧️
+- Chat 💬
+- Plus loads more!
 
 
 ## Getting Started 🏁
